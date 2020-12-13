@@ -1,0 +1,22 @@
+﻿<Window x:Class="RacingCarGame.StartGame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RacingCarGame"
+        mc:Ignorable="d"
+        Title="GameWindow" Height="450" Width="800">
+    <Grid Margin="0,0,2,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="79*"/>
+        </Grid.ColumnDefinitions>
+        <Image Height="419" VerticalAlignment="Top" Margin="-80,0,-97,0" Grid.ColumnSpan="2"  />
+        <Button Content="Help" HorizontalAlignment="Left" Margin="245,316,0,0" VerticalAlignment="Top" Width="128" Height="64" Background="Green" Grid.Column="1" Click="Button_Click"/>
+        <Button Content="Let's go playing" HorizontalAlignment="Left" Margin="25,316,0,0" VerticalAlignment="Top" Width="128" Height="64" Background="Yellow" Grid.Column="1" Click="Button_Click_1"/>
+        <Button Content="Exit" Grid.Column="1" HorizontalAlignment="Left" Margin="448,316,0,0" VerticalAlignment="Top" Width="128" Height="64" Background="Red" Click="Button_Click_2"/>
+
+
+
+    </Grid>
+</Window>
