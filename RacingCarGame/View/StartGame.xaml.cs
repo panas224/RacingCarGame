@@ -26,7 +26,7 @@ namespace RacingCarGame
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Hello this is Racing Game, where you can play for time."+"\n"+"If you want to play click on Lets go playing button.Then the game will start automaticly"+"\n"+"Now mo move the car you must click on <- or -> button"+"\n"+"If you will cut the another button the will be over"+"\n"+"You can also collect coins.What it gives? If you will collect coins for some period of time you may be hit into another cat and the game will not be over"+"\n"+"Enjoy this game))"+"\n"+"If you have some additionals questions please contact me via gmail:panas.oleh2121@gmail.com");
+            MessageBox.Show("Hello this is Racing Game, where you can play for time."+"\n"+"If you want to play click on Let's go playing button.Then the game will start automaticly"+"\n"+"Now to move the car you must click on <- or -> button"+"\n"+"If you will cut the another car the game will be over"+"\n"+"You can also collect coins.What it gives? If you will collect coins for some period of time you may be hit into another car and the game will not be over"+"\n"+"Enjoy this game))"+"\n"+"If you have some additionals questions please contact me via gmail:panas.oleh2121@gmail.com");
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

@@ -11,10 +11,10 @@
             <ColumnDefinition Width="9*"/>
             <ColumnDefinition Width="79*"/>
         </Grid.ColumnDefinitions>
-        <Image Height="419" VerticalAlignment="Top" Margin="-80,0,-97,0" Grid.ColumnSpan="2" Source="b9c6aed13d452396e30c852cc0273989.jpg"  />
-        <Button Content="Help" HorizontalAlignment="Left"  Margin="245,316,0,0" VerticalAlignment="Top" Width="128" Height="64" Background="Green" Grid.Column="1" Click="Button_Click"/>
-        <Button Content="Let's go playing" HorizontalAlignment="Left" Margin="25,316,0,0" VerticalAlignment="Top" Width="128" Height="64" Background="Yellow" Grid.Column="1" Click="Button_Click_1"/>
-        <Button Content="Exit" Grid.Column="1" HorizontalAlignment="Left" Margin="448,316,0,0" VerticalAlignment="Top" Width="128" Height="64" Background="Red" Click="Button_Click_2"/>
+        <Image Height="419" VerticalAlignment="Top" Margin="-106,0,-102,0" Grid.ColumnSpan="2" Source="b9c6aed13d452396e30c852cc0273989.jpg"  />
+        <Button Content="Help" HorizontalAlignment="Center"  Margin="266,316,315,0" VerticalAlignment="Top" Width="128" Height="64" Background="Green" Grid.Column="2" Click="Button_Click"/>
+        <Button Content="Let's go playing" HorizontalAlignment="Center" Margin="50,316,531,0" VerticalAlignment="Top" Width="128" Height="64" Background="Yellow" Grid.Column="1" Click="Button_Click_1"/>
+        <Button Content="Exit" Grid.Column="1" HorizontalAlignment="Center" Margin="466,316,115,0" VerticalAlignment="Top" Width="128" Height="64" Background="Red" Click="Button_Click_2"/>
 
 
 
